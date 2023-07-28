@@ -2,7 +2,7 @@
 import './App.css';
 import { Planets } from './planetComponent';
 import { Counter } from './couterIncreaseComponent';
-
+import { TextInput } from './components/textComponent';
 
 function App() {
 
@@ -36,6 +36,7 @@ function App() {
 
 
       <Counter />
+      <TextInput/>
 
     </div>
   );
