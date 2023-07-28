@@ -3,6 +3,7 @@ import './App.css';
 import { Planets } from './planetComponent';
 import { Counter } from './couterIncreaseComponent';
 
+
 function App() {
 
   const planets = [
