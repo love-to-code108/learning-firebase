@@ -3,6 +3,7 @@ import './App.css';
 import { Planets } from './planetComponent';
 import { Counter } from './couterIncreaseComponent';
 import { TextInput } from './components/textComponent';
+import { Hider } from './components/hideUnhide';
 
 function App() {
 
@@ -36,7 +37,10 @@ function App() {
 
 
       <Counter />
+
       <TextInput/>
+
+      <Hider/>
 
     </div>
   );
