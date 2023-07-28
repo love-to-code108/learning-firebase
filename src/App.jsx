@@ -5,6 +5,7 @@ import { Counter } from './couterIncreaseComponent';
 import { TextInput } from './components/textComponent';
 import { Hider } from './components/hideUnhide';
 import { ColorChange } from './components/textColorChnage';
+import { FullCounter } from './components/fullCounter';
 
 function App() {
 
@@ -44,6 +45,8 @@ function App() {
       <Hider/>
 
       <ColorChange/>
+
+      <FullCounter/>
 
     </div>
   );
