@@ -1,22 +1,24 @@
 
 import './App.css';
-import { Planets } from './planetComponent';
+// import { Planets } from './planetComponent';
 import { Counter } from './couterIncreaseComponent';
 import { TextInput } from './components/textComponent';
 import { Hider } from './components/hideUnhide';
+import { ColorChange } from './components/textColorChnage';
+import { FullCounter } from './components/fullCounter';
 
 function App() {
 
-  const planets = [
-    {name:"Mercury", isGasPlanet: true},
-    {name:"Venus", isGasPlanet: false},
-    {name:"Earth", isGasPlanet: false},
-    {name:"Mars", isGasPlanet: true},
-    {name:"Jupyter", isGasPlanet: false},
-    {name:"Saturn", isGasPlanet: false},
-    {name:"Uranus", isGasPlanet: true},
-    {name:"Neptune", isGasPlanet: false},
-  ]
+  // const planets = [
+  //   {name:"Mercury", isGasPlanet: true},
+  //   {name:"Venus", isGasPlanet: false},
+  //   {name:"Earth", isGasPlanet: false},
+  //   {name:"Mars", isGasPlanet: true},
+  //   {name:"Jupyter", isGasPlanet: false},
+  //   {name:"Saturn", isGasPlanet: false},
+  //   {name:"Uranus", isGasPlanet: true},
+  //   {name:"Neptune", isGasPlanet: false},
+  // ]
   return (
     <div className="App">
       {/* <Employe salary={10000} position="Senior SDE " company="Amazon" />
@@ -41,6 +43,10 @@ function App() {
       <TextInput/>
 
       <Hider/>
+
+      <ColorChange/>
+
+      <FullCounter/>
 
     </div>
   );
